@@ -43,12 +43,12 @@ It is intended for:
 
 ## 🛠️ Requirements
 
-- Python **3.x**
+- Python 3
 - No external libraries required (uses Python standard library)
 
 ---
 
 ## ▶️ Usage
 
-```bash
+
 python3 scanner.py <IP_or_Hostname>
