@@ -2,9 +2,6 @@
 TCP port scanner written in Python.  It checks a target IP address or hostname  Scans ports 1–1024  Identifies which ports are open  Attempts to map open ports to common services (like HTTP, FTP, SSH)  Displays the scan start time and results in the terminal
 # 🔐 Python Port Scanner
 
-
-This tool scans a target IP address or hostname to identify **open ports** and their associated services.
-
 ---
 
 ## 📌 Features
@@ -20,7 +17,7 @@ This tool scans a target IP address or hostname to identify **open ports** and t
 
 ## 🧠 Purpose
 
-Port scanning is a fundamental technique in **cybersecurity reconnaissance**.  
+
 This script helps identify exposed services that could potentially be exploited if not properly secured.
 
 It is intended for:
@@ -44,11 +41,9 @@ It is intended for:
 ## 🛠️ Requirements
 
 - Python 3
-- No external libraries required (uses Python standard library)
 
----
 
 ## ▶️ Usage
 
 
-python3 scanner.py <IP_or_Hostname>
+python3 port_scan.py <IP_or_Hostname>
